@@ -1,0 +1,42 @@
+<?php
+
+$test = array(1,2,3);
+
+
+
+
+?>
+
+
+
+
+
+<!DOCTYPE html>
+
+<form action = "database/test.php" method="post">
+<p>Input 1:<input type ="text" name="name"></p>
+<input type="submit" >
+</form>
+
+
+
+<html>
+<head>
+<script src = "js/script.js"></script>
+</head>
+
+<body>
+<button onclick = "reveal()"> 
+</button>
+
+
+
+<?php
+include_once 'database_conn.inc.php';
+?>
+
+<p id = "hiddenMessage" style="display:none">missing</p>
+</body>
+
+
+</html>
